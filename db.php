@@ -2,7 +2,7 @@
 //connection to mySQL
 $host="localhost";
 $username="root";
-$password="";
+$password=""; 
 
 
 $link = mysql_connect($host,$username,$password)or die("Could not connect");
